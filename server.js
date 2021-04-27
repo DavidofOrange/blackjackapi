@@ -32,7 +32,6 @@ const port = process.env.PORT || 9999;
 app.listen(9999, () => {
   console.log("Server running at " + port);
 });
-
 return app
 }
 setupServer();
